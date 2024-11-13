@@ -4,7 +4,7 @@ services:
     image: mysql:latest
     environment:
       MYSQL_ROOT_PASSWORD: rootpass
-      MYSQL_DATABASE: bdwebpsy
+      MYSQL_DATABASE: webpsy
       MYSQL_USER: rootuser
       MYSQL_PASSWORD: rootpass
     ports:
